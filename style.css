@@ -1,17 +1,35 @@
 body{
     background-image: url(bg_img.jpg);
     color: black;
-    color: white;
+    font-style: italic;
 }
 .heading{
     font-size: 25px;
     width:80%;
 }
 #camera,#result{
-    border: 2px solid greenyellow;
+    border: 10px double;
+    color: brown;
     width: 350px;
     height: 300px;
 }
-.name_of_objects , #object_name, #object_accuracy{
-    color:pink;
+#object_name, #object_accuracy{
+    color:darkmagenta;
+}
+h1{
+    border:10px double brown;
+    width: 40%;
+    color: darkmagenta;
+
+}
+button{
+    color:white;
+    background: darkmagenta;
+}
+P{
+    color: darkmagenta;
+}
+.name_of_objects{
+    color:darkmagenta;
+    border-bottom: 10px double brown;
 }
