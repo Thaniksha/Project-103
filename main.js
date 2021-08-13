@@ -19,3 +19,18 @@ function take_snapshot(){
 function modelLoaded(){
     console.log("model has been loaded");
 }   
+function check(){
+    img=document.getElementById('snap_shot');
+    classifier.classify(img,gotResult);
+}
+ function gotResult(error,result){
+    if(error){
+        console.log(error);
+    }else{
+        console.log(result);
+        document.getElementById("object_name").innerHTML=result[0].label;
+        percentage=result[0].confidence*100;
+        document.getElementById("object_accuracy").innerHTML=percentage.toFixed(2) +" %";
+    }
+     
+ }
