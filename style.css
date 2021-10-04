@@ -1,35 +1,44 @@
-body{
-    background-image: url(bg_img.jpg);
-    color: black;
-    font-style: italic;
+body
+{
+  color: black;
+  background-image:url("bg_img.jfif");
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px double black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
 }
 .heading{
-    font-size: 25px;
-    width:80%;
+  font-size: 20px;
+  border-radius: 10px;
+  letter-spacing: 10px;
 }
-#camera,#result{
-    border: 10px double;
-    color: brown;
-    width: 350px;
-    height: 300px;
+label{
+  color: black;
+  background-color: blueviolet;
+  padding: 6px;
+  border-radius: 10px;
+  font-size: 15px;
 }
-#object_name, #object_accuracy{
-    color:darkmagenta;
-}
-h1{
-    border:10px double brown;
-    width: 40%;
-    color: darkmagenta;
-
-}
-button{
-    color:white;
-    background: darkmagenta;
-}
-P{
-    color: darkmagenta;
-}
-.name_of_objects{
-    color:darkmagenta;
-    border-bottom: 10px double brown;
+#heading{
+    border: 10px dotted darkblue;
+    width: 30%;
+    color: crimson;
 }
